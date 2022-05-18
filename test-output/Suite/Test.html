@@ -55,158 +55,18 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/3/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 18 22:35:54 IST 2022</td>
+<td>Started on:</td><td>Thu May 19 01:06:11 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (174 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (86 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
-<td>Excluded groups:</td><td></td>
+<td>Excluded groups:</td><td>functional </td>
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='softAssertAndMultipleReportingFailure.TestCase1.validateTitle()'><b>validateTitle</b><br>Test class: softAssertAndMultipleReportingFailure.TestCase1</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [yahoomail.com] but found [gmail.com],
-	Element not found expected [true] but found [false],
-	text box not found expected [true] but found [false]
-	at softAssertAndMultipleReportingFailure.TestCase1.validateTitle(TestCase1.java:29)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1758008124", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1758008124'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [yahoomail.com] but found [gmail.com],
-	Element not found expected [true] but found [false],
-	text box not found expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at softAssertAndMultipleReportingFailure.TestCase1.validateTitle(TestCase1.java:29)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>softAssertAndMultipleReportingFailure.TestCase1@693fe6c9</td></tr>
-<tr>
-<td title='addingAssertionAndReportingFailure.TestCase2.validateTitle()'><b>validateTitle</b><br>Test class: addingAssertionAndReportingFailure.TestCase2</td>
-<td><div><pre>java.lang.AssertionError: expected [yahoomail.com] but found [gmail.com]
-	at addingAssertionAndReportingFailure.TestCase2.validateTitle(TestCase2.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1807648168", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1807648168'><pre>java.lang.AssertionError: expected [yahoomail.com] but found [gmail.com]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at addingAssertionAndReportingFailure.TestCase2.validateTitle(TestCase2.java:19)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>addingAssertionAndReportingFailure.TestCase2@6631f5ca</td></tr>
-<tr>
-<td title='dependenciesTest.TestCase1.doRegister()'><b>doRegister</b><br>Test class: dependenciesTest.TestCase1</td>
-<td><div><pre>java.lang.AssertionError: Element not found
-	at dependenciesTest.TestCase1.doRegister(TestCase1.java:11)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1418555530", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1418555530'><pre>java.lang.AssertionError: Element not found
-	at org.testng.Assert.fail(Assert.java:99)
-	at dependenciesTest.TestCase1.doRegister(TestCase1.java:11)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>dependenciesTest.TestCase1@649bec2e</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -215,81 +75,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='annotationsTest.AnnotationSeqeunces.test3()'><b>test3</b><br>Test class: annotationsTest.AnnotationSeqeunces</td>
+<td title='groupsTest.TestCase1.test4()'><b>test4</b><br>Test class: groupsTest.TestCase1</td>
 <td></td>
 <td>0</td>
-<td>annotationsTest.AnnotationSeqeunces@41fecb8b</td></tr>
+<td>groupsTest.TestCase1@53aad5d5</td></tr>
 <tr>
-<td title='annotationsTest.AnnotationSeqeunces.test1()'><b>test1</b><br>Test class: annotationsTest.AnnotationSeqeunces</td>
+<td title='groupsTest.TestCase1.test7()'><b>test7</b><br>Test class: groupsTest.TestCase1</td>
 <td></td>
 <td>0</td>
-<td>annotationsTest.AnnotationSeqeunces@41fecb8b</td></tr>
+<td>groupsTest.TestCase1@53aad5d5</td></tr>
 <tr>
-<td title='annotationsTest.TestCase1.doHomePage()'><b>doHomePage</b><br>Test class: annotationsTest.TestCase1</td>
+<td title='groupsTest.TestCase1.test8()'><b>test8</b><br>Test class: groupsTest.TestCase1</td>
 <td></td>
 <td>0</td>
-<td>annotationsTest.TestCase1@34f5090e</td></tr>
+<td>groupsTest.TestCase1@53aad5d5</td></tr>
 <tr>
-<td title='annotationsTest.AnnotationSeqeunces.test2()'><b>test2</b><br>Test class: annotationsTest.AnnotationSeqeunces</td>
+<td title='groupsTest.TestCase1.test6()'><b>test6</b><br>Test class: groupsTest.TestCase1</td>
 <td></td>
 <td>0</td>
-<td>annotationsTest.AnnotationSeqeunces@41fecb8b</td></tr>
+<td>groupsTest.TestCase1@53aad5d5</td></tr>
 <tr>
-<td title='dependenciesTest.TestCase1.homePage()'><b>homePage</b><br>Test class: dependenciesTest.TestCase1</td>
+<td title='groupsTest.TestCase1.test2()'><b>test2</b><br>Test class: groupsTest.TestCase1</td>
 <td></td>
 <td>0</td>
-<td>dependenciesTest.TestCase1@649bec2e</td></tr>
-<tr>
-<td title='annotationsTest.TestCase1.doLogin()'><b>doLogin</b><br>Test class: annotationsTest.TestCase1</td>
-<td></td>
-<td>0</td>
-<td>annotationsTest.TestCase1@34f5090e</td></tr>
-<tr>
-<td title='dependenciesTest.TestCase1.productCatalogPage()'><b>productCatalogPage</b><br>Test class: dependenciesTest.TestCase1</td>
-<td></td>
-<td>0</td>
-<td>dependenciesTest.TestCase1@649bec2e</td></tr>
-<tr>
-<td title='annotationsTest.TestCase1.doRegister()'><b>doRegister</b><br>Test class: annotationsTest.TestCase1</td>
-<td></td>
-<td>0</td>
-<td>annotationsTest.TestCase1@34f5090e</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='dependenciesTest.TestCase1.doLogin()'><b>doLogin</b><br>Test class: dependenciesTest.TestCase1</td>
-<td><div><pre>java.lang.Throwable: Method TestCase1.doLogin()[pri:2, instance:dependenciesTest.TestCase1@649bec2e] depends on not successfully finished methods
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace856055143", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace856055143'><pre>java.lang.Throwable: Method TestCase1.doLogin()[pri:2, instance:dependenciesTest.TestCase1@649bec2e] depends on not successfully finished methods
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>dependenciesTest.TestCase1@649bec2e</td></tr>
+<td>groupsTest.TestCase1@53aad5d5</td></tr>
 </table><p>
 </body>
 </html>
