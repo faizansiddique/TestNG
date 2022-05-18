@@ -1,0 +1,33 @@
+--------------Annotations--------------
+@BeforeSuite
+@AfterSuite
+@BeforeTest
+@AfterTest
+@BeforeClass
+@AfterClass
+@BeforeMethod
+@AfterMethod
+@Test
+
+@BeforeSuite: The annotated method will be run before all tests in this suite have run.
+@AfterSuite: The annotated method will be run after all tests in this suite have run.
+@BeforeTest: The annotated method will be run before any test method belonging to the classes inside the <test> tag is run.
+@AfterTest: The annotated method will be run after all the test methods belonging to the classes inside the <test> tag have run.
+@BeforeClass: The annotated method will be run before the first test method in the current class is invoked.
+@AfterClass: The annotated method will be run after all the test methods in the current class have been run.
+@BeforeMethod: The annotated method will be run before each test method.
+@AfterMethod: The annotated method will be run after each test method.
+
+--------------Annotations Sequences--------------
+@BeforeSuite
+@BeforeTest
+@BeforeClass
+@BeforeMethod
+@Test1
+@AfterMethod
+@BeforeMethod
+@Test2
+@AfterMethod
+@AfterClass
+@AfterTest
+@AfterSuite
