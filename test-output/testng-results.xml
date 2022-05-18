@@ -1,69 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="8" failed="3" skipped="1">
+<testng-results ignored="0" total="17" passed="13" failed="3" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-18T22:42:21 IST" name="Suite" finished-at="2022-05-18T22:42:22 IST" duration-ms="450">
+  <suite started-at="2022-05-18T22:59:24 IST" name="Suite" finished-at="2022-05-18T22:59:24 IST" duration-ms="0">
     <groups>
     </groups>
-    <test started-at="2022-05-18T22:42:21 IST" name="Annotations Sequence Test" finished-at="2022-05-18T22:42:21 IST" duration-ms="105">
-      <class name="annotationsTest.AnnotationSeqeunces">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:annotationsTest.AnnotationSeqeunces@72cde7cc]" started-at="2022-05-18T22:42:21 IST" name="beforeTest" finished-at="2022-05-18T22:42:21 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:annotationsTest.AnnotationSeqeunces@72cde7cc]" started-at="2022-05-18T22:42:21 IST" name="BeforeClass" finished-at="2022-05-18T22:42:21 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:annotationsTest.AnnotationSeqeunces@72cde7cc]" started-at="2022-05-18T22:42:21 IST" name="beforeMethod" finished-at="2022-05-18T22:42:21 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test1()[pri:1, instance:annotationsTest.AnnotationSeqeunces@72cde7cc]" started-at="2022-05-18T22:42:21 IST" name="test1" finished-at="2022-05-18T22:42:21 IST" duration-ms="11" status="PASS">
+  </suite> <!-- Suite -->
+  <suite started-at="2022-05-18T22:59:24 IST" name="Suite (1)" finished-at="2022-05-18T22:59:24 IST" duration-ms="68">
+    <groups>
+    </groups>
+    <test started-at="2022-05-18T22:59:24 IST" name="Test1" finished-at="2022-05-18T22:59:24 IST" duration-ms="25">
+      <class name="regressionTest.TestCase1">
+        <test-method signature="test1()[pri:1, instance:regressionTest.TestCase1@32ee6fee]" started-at="2022-05-18T22:59:24 IST" name="test1" finished-at="2022-05-18T22:59:24 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:annotationsTest.AnnotationSeqeunces@72cde7cc]" started-at="2022-05-18T22:42:21 IST" name="afterMethod" finished-at="2022-05-18T22:42:21 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="test2()[pri:2, instance:annotationsTest.AnnotationSeqeunces@72cde7cc]" started-at="2022-05-18T22:42:21 IST" name="test2" finished-at="2022-05-18T22:42:21 IST" duration-ms="4" status="PASS">
+        <test-method signature="test2()[pri:2, instance:regressionTest.TestCase1@32ee6fee]" started-at="2022-05-18T22:59:24 IST" name="test2" finished-at="2022-05-18T22:59:24 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:annotationsTest.AnnotationSeqeunces@72cde7cc]" started-at="2022-05-18T22:42:21 IST" name="beforeMethod" finished-at="2022-05-18T22:42:21 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:annotationsTest.AnnotationSeqeunces@72cde7cc]" started-at="2022-05-18T22:42:21 IST" name="afterMethod" finished-at="2022-05-18T22:42:21 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="test3()[pri:3, instance:annotationsTest.AnnotationSeqeunces@72cde7cc]" started-at="2022-05-18T22:42:21 IST" name="test3" finished-at="2022-05-18T22:42:21 IST" duration-ms="4" status="PASS">
+        <test-method signature="test3()[pri:3, instance:regressionTest.TestCase1@32ee6fee]" started-at="2022-05-18T22:59:24 IST" name="test3" finished-at="2022-05-18T22:59:24 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:annotationsTest.AnnotationSeqeunces@72cde7cc]" started-at="2022-05-18T22:42:21 IST" name="beforeMethod" finished-at="2022-05-18T22:42:21 IST" duration-ms="0" status="PASS">
+      </class> <!-- regressionTest.TestCase1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-05-18T22:59:24 IST" name="Test2" finished-at="2022-05-18T22:59:24 IST" duration-ms="36">
+      <class name="regressionTest.TestCase2">
+        <test-method signature="test1()[pri:1, instance:regressionTest.TestCase2@28f2a10f]" started-at="2022-05-18T22:59:24 IST" name="test1" finished-at="2022-05-18T22:59:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:2, instance:regressionTest.TestCase2@28f2a10f]" started-at="2022-05-18T22:59:24 IST" name="test2" finished-at="2022-05-18T22:59:24 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- regressionTest.TestCase2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite (1) -->
+  <suite started-at="2022-05-18T22:59:23 IST" name="Suite (0)" finished-at="2022-05-18T22:59:24 IST" duration-ms="439">
+    <groups>
+    </groups>
+    <test started-at="2022-05-18T22:59:23 IST" name="Annotations Sequence Test" finished-at="2022-05-18T22:59:23 IST" duration-ms="133">
+      <class name="annotationsTest.AnnotationSeqeunces">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:annotationsTest.AnnotationSeqeunces@be35cd9]" started-at="2022-05-18T22:59:23 IST" name="beforeTest" finished-at="2022-05-18T22:59:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:annotationsTest.AnnotationSeqeunces@be35cd9]" started-at="2022-05-18T22:59:23 IST" name="BeforeClass" finished-at="2022-05-18T22:59:23 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:annotationsTest.AnnotationSeqeunces@be35cd9]" started-at="2022-05-18T22:59:23 IST" name="beforeMethod" finished-at="2022-05-18T22:59:23 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:annotationsTest.AnnotationSeqeunces@72cde7cc]" started-at="2022-05-18T22:42:21 IST" name="afterMethod" finished-at="2022-05-18T22:42:21 IST" duration-ms="0" status="PASS">
+        <test-method signature="test1()[pri:1, instance:annotationsTest.AnnotationSeqeunces@be35cd9]" started-at="2022-05-18T22:59:23 IST" name="test1" finished-at="2022-05-18T22:59:23 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:annotationsTest.AnnotationSeqeunces@be35cd9]" started-at="2022-05-18T22:59:23 IST" name="afterMethod" finished-at="2022-05-18T22:59:23 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:annotationsTest.AnnotationSeqeunces@72cde7cc]" started-at="2022-05-18T22:42:21 IST" name="afterClass" finished-at="2022-05-18T22:42:21 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:annotationsTest.AnnotationSeqeunces@be35cd9]" started-at="2022-05-18T22:59:23 IST" name="beforeMethod" finished-at="2022-05-18T22:59:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:2, instance:annotationsTest.AnnotationSeqeunces@be35cd9]" started-at="2022-05-18T22:59:23 IST" name="test2" finished-at="2022-05-18T22:59:23 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:annotationsTest.AnnotationSeqeunces@be35cd9]" started-at="2022-05-18T22:59:23 IST" name="afterMethod" finished-at="2022-05-18T22:59:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:annotationsTest.AnnotationSeqeunces@be35cd9]" started-at="2022-05-18T22:59:23 IST" name="beforeMethod" finished-at="2022-05-18T22:59:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:3, instance:annotationsTest.AnnotationSeqeunces@be35cd9]" started-at="2022-05-18T22:59:23 IST" name="test3" finished-at="2022-05-18T22:59:23 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:annotationsTest.AnnotationSeqeunces@be35cd9]" started-at="2022-05-18T22:59:23 IST" name="afterMethod" finished-at="2022-05-18T22:59:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:annotationsTest.AnnotationSeqeunces@be35cd9]" started-at="2022-05-18T22:59:23 IST" name="afterClass" finished-at="2022-05-18T22:59:23 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:annotationsTest.AnnotationSeqeunces@72cde7cc]" started-at="2022-05-18T22:42:21 IST" name="afterTest" finished-at="2022-05-18T22:42:21 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:annotationsTest.AnnotationSeqeunces@be35cd9]" started-at="2022-05-18T22:59:23 IST" name="afterTest" finished-at="2022-05-18T22:59:23 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- annotationsTest.AnnotationSeqeunces -->
     </test> <!-- Annotations Sequence Test -->
-    <test started-at="2022-05-18T22:42:22 IST" name="Adding Assertion And Reporting Failure Test" finished-at="2022-05-18T22:42:22 IST" duration-ms="21">
+    <test started-at="2022-05-18T22:59:23 IST" name="Adding Assertion And Reporting Failure Test" finished-at="2022-05-18T22:59:23 IST" duration-ms="17">
       <class name="addingAssertionAndReportingFailure.TestCase2">
-        <test-method signature="validateTitle()[pri:0, instance:addingAssertionAndReportingFailure.TestCase2@7ea9e1e2]" started-at="2022-05-18T22:42:22 IST" name="validateTitle" finished-at="2022-05-18T22:42:22 IST" duration-ms="7" status="FAIL">
+        <test-method signature="validateTitle()[pri:0, instance:addingAssertionAndReportingFailure.TestCase2@7a419da4]" started-at="2022-05-18T22:59:23 IST" name="validateTitle" finished-at="2022-05-18T22:59:23 IST" duration-ms="7" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [yahoomail.com] but found [gmail.com]]]>
@@ -99,6 +135,7 @@ at org.testng.SuiteRunner.run(SuiteRunner.java:276)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
 at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
 at org.testng.TestNG.runSuites(TestNG.java:1063)
 at org.testng.TestNG.run(TestNG.java:1031)
@@ -113,9 +150,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- validateTitle -->
       </class> <!-- addingAssertionAndReportingFailure.TestCase2 -->
     </test> <!-- Adding Assertion And Reporting Failure Test -->
-    <test started-at="2022-05-18T22:42:22 IST" name="Dependencies Test" finished-at="2022-05-18T22:42:22 IST" duration-ms="35">
+    <test started-at="2022-05-18T22:59:24 IST" name="Dependencies Test" finished-at="2022-05-18T22:59:24 IST" duration-ms="34">
       <class name="dependenciesTest.TestCase1">
-        <test-method signature="doRegister()[pri:1, instance:dependenciesTest.TestCase1@73700b80]" started-at="2022-05-18T22:42:22 IST" name="doRegister" finished-at="2022-05-18T22:42:22 IST" duration-ms="3" status="FAIL">
+        <test-method signature="doRegister()[pri:1, instance:dependenciesTest.TestCase1@7e5afaa6]" started-at="2022-05-18T22:59:24 IST" name="doRegister" finished-at="2022-05-18T22:59:24 IST" duration-ms="2" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Element not found]]>
@@ -146,6 +183,7 @@ at org.testng.SuiteRunner.run(SuiteRunner.java:276)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
 at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
 at org.testng.TestNG.runSuites(TestNG.java:1063)
 at org.testng.TestNG.run(TestNG.java:1031)
@@ -158,13 +196,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doRegister -->
-        <test-method signature="doLogin()[pri:2, instance:dependenciesTest.TestCase1@73700b80]" started-at="2022-05-18T22:42:22 IST" name="doLogin" finished-at="2022-05-18T22:42:22 IST" depends-on-methods="dependenciesTest.TestCase1.doRegister" duration-ms="0" status="SKIP">
+        <test-method signature="doLogin()[pri:2, instance:dependenciesTest.TestCase1@7e5afaa6]" started-at="2022-05-18T22:59:24 IST" name="doLogin" finished-at="2022-05-18T22:59:24 IST" depends-on-methods="dependenciesTest.TestCase1.doRegister" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method TestCase1.doLogin()[pri:2, instance:dependenciesTest.TestCase1@73700b80] depends on not successfully finished methods]]>
+              <![CDATA[Method TestCase1.doLogin()[pri:2, instance:dependenciesTest.TestCase1@7e5afaa6] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestCase1.doLogin()[pri:2, instance:dependenciesTest.TestCase1@73700b80] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method TestCase1.doLogin()[pri:2, instance:dependenciesTest.TestCase1@7e5afaa6] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -178,6 +216,7 @@ at org.testng.SuiteRunner.run(SuiteRunner.java:276)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
 at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
 at org.testng.TestNG.runSuites(TestNG.java:1063)
 at org.testng.TestNG.run(TestNG.java:1031)
@@ -190,19 +229,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method signature="homePage()[pri:3, instance:dependenciesTest.TestCase1@73700b80]" started-at="2022-05-18T22:42:22 IST" name="homePage" finished-at="2022-05-18T22:42:22 IST" depends-on-methods="dependenciesTest.TestCase1.doRegister" duration-ms="3" status="PASS">
+        <test-method signature="homePage()[pri:3, instance:dependenciesTest.TestCase1@7e5afaa6]" started-at="2022-05-18T22:59:24 IST" name="homePage" finished-at="2022-05-18T22:59:24 IST" depends-on-methods="dependenciesTest.TestCase1.doRegister" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage -->
-        <test-method signature="productCatalogPage()[pri:4, instance:dependenciesTest.TestCase1@73700b80]" started-at="2022-05-18T22:42:22 IST" name="productCatalogPage" finished-at="2022-05-18T22:42:22 IST" duration-ms="3" status="PASS">
+        <test-method signature="productCatalogPage()[pri:4, instance:dependenciesTest.TestCase1@7e5afaa6]" started-at="2022-05-18T22:59:24 IST" name="productCatalogPage" finished-at="2022-05-18T22:59:24 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productCatalogPage -->
       </class> <!-- dependenciesTest.TestCase1 -->
     </test> <!-- Dependencies Test -->
-    <test started-at="2022-05-18T22:42:22 IST" name="SoftAssert And Multiple Reporting Failure Test" finished-at="2022-05-18T22:42:22 IST" duration-ms="15">
+    <test started-at="2022-05-18T22:59:24 IST" name="SoftAssert And Multiple Reporting Failure Test" finished-at="2022-05-18T22:59:24 IST" duration-ms="17">
       <class name="softAssertAndMultipleReportingFailure.TestCase1">
-        <test-method signature="validateTitle()[pri:0, instance:softAssertAndMultipleReportingFailure.TestCase1@581ac8a8]" started-at="2022-05-18T22:42:22 IST" name="validateTitle" finished-at="2022-05-18T22:42:22 IST" duration-ms="8" status="FAIL">
+        <test-method signature="validateTitle()[pri:0, instance:softAssertAndMultipleReportingFailure.TestCase1@71238fc2]" started-at="2022-05-18T22:59:24 IST" name="validateTitle" finished-at="2022-05-18T22:59:24 IST" duration-ms="7" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -240,6 +279,7 @@ at org.testng.SuiteRunner.run(SuiteRunner.java:276)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
 at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
 at org.testng.TestNG.runSuites(TestNG.java:1063)
 at org.testng.TestNG.run(TestNG.java:1031)
@@ -254,63 +294,63 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- validateTitle -->
       </class> <!-- softAssertAndMultipleReportingFailure.TestCase1 -->
     </test> <!-- SoftAssert And Multiple Reporting Failure Test -->
-    <test started-at="2022-05-18T22:42:22 IST" name="Annotations Test" finished-at="2022-05-18T22:42:22 IST" duration-ms="36">
+    <test started-at="2022-05-18T22:59:24 IST" name="Annotations Test" finished-at="2022-05-18T22:59:24 IST" duration-ms="42">
       <class name="annotationsTest.TestCase1">
-        <test-method is-config="true" signature="createDB()[pri:0, instance:annotationsTest.TestCase1@16a0ee18]" started-at="2022-05-18T22:42:22 IST" name="createDB" finished-at="2022-05-18T22:42:22 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="createDB()[pri:0, instance:annotationsTest.TestCase1@16610890]" started-at="2022-05-18T22:59:24 IST" name="createDB" finished-at="2022-05-18T22:59:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDB -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:annotationsTest.TestCase1@16a0ee18]" started-at="2022-05-18T22:42:22 IST" name="launchBrowser" finished-at="2022-05-18T22:42:22 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:annotationsTest.TestCase1@16610890]" started-at="2022-05-18T22:59:24 IST" name="launchBrowser" finished-at="2022-05-18T22:59:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="doRegister()[pri:1, instance:annotationsTest.TestCase1@16a0ee18]" started-at="2022-05-18T22:42:22 IST" name="doRegister" finished-at="2022-05-18T22:42:22 IST" duration-ms="2" status="PASS">
+        <test-method signature="doRegister()[pri:1, instance:annotationsTest.TestCase1@16610890]" started-at="2022-05-18T22:59:24 IST" name="doRegister" finished-at="2022-05-18T22:59:24 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doRegister -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:annotationsTest.TestCase1@16a0ee18]" started-at="2022-05-18T22:42:22 IST" name="closeBrowser" finished-at="2022-05-18T22:42:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:annotationsTest.TestCase1@16610890]" started-at="2022-05-18T22:59:24 IST" name="closeBrowser" finished-at="2022-05-18T22:59:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:annotationsTest.TestCase1@16a0ee18]" started-at="2022-05-18T22:42:22 IST" name="launchBrowser" finished-at="2022-05-18T22:42:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:annotationsTest.TestCase1@16610890]" started-at="2022-05-18T22:59:24 IST" name="launchBrowser" finished-at="2022-05-18T22:59:24 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="doLogin()[pri:2, instance:annotationsTest.TestCase1@16a0ee18]" started-at="2022-05-18T22:42:22 IST" name="doLogin" finished-at="2022-05-18T22:42:22 IST" duration-ms="4" status="PASS">
+        <test-method signature="doLogin()[pri:2, instance:annotationsTest.TestCase1@16610890]" started-at="2022-05-18T22:59:24 IST" name="doLogin" finished-at="2022-05-18T22:59:24 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:annotationsTest.TestCase1@16a0ee18]" started-at="2022-05-18T22:42:22 IST" name="closeBrowser" finished-at="2022-05-18T22:42:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:annotationsTest.TestCase1@16610890]" started-at="2022-05-18T22:59:24 IST" name="closeBrowser" finished-at="2022-05-18T22:59:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:annotationsTest.TestCase1@16a0ee18]" started-at="2022-05-18T22:42:22 IST" name="launchBrowser" finished-at="2022-05-18T22:42:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:annotationsTest.TestCase1@16610890]" started-at="2022-05-18T22:59:24 IST" name="launchBrowser" finished-at="2022-05-18T22:59:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="doHomePage()[pri:3, instance:annotationsTest.TestCase1@16a0ee18]" started-at="2022-05-18T22:42:22 IST" name="doHomePage" finished-at="2022-05-18T22:42:22 IST" duration-ms="1" status="PASS">
+        <test-method signature="doHomePage()[pri:3, instance:annotationsTest.TestCase1@16610890]" started-at="2022-05-18T22:59:24 IST" name="doHomePage" finished-at="2022-05-18T22:59:24 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doHomePage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:annotationsTest.TestCase1@16a0ee18]" started-at="2022-05-18T22:42:22 IST" name="closeBrowser" finished-at="2022-05-18T22:42:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:annotationsTest.TestCase1@16610890]" started-at="2022-05-18T22:59:24 IST" name="closeBrowser" finished-at="2022-05-18T22:59:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="deleteDB()[pri:0, instance:annotationsTest.TestCase1@16a0ee18]" started-at="2022-05-18T22:42:22 IST" name="deleteDB" finished-at="2022-05-18T22:42:22 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="deleteDB()[pri:0, instance:annotationsTest.TestCase1@16610890]" started-at="2022-05-18T22:59:24 IST" name="deleteDB" finished-at="2022-05-18T22:59:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteDB -->
       </class> <!-- annotationsTest.TestCase1 -->
       <class name="annotationsTest.AnnotationSeqeunces">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:annotationsTest.AnnotationSeqeunces@72cde7cc]" started-at="2022-05-18T22:42:21 IST" name="beforeSuite" finished-at="2022-05-18T22:42:21 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:annotationsTest.AnnotationSeqeunces@be35cd9]" started-at="2022-05-18T22:59:23 IST" name="beforeSuite" finished-at="2022-05-18T22:59:23 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:annotationsTest.AnnotationSeqeunces@72cde7cc]" started-at="2022-05-18T22:42:22 IST" name="AfterSuite" finished-at="2022-05-18T22:42:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:annotationsTest.AnnotationSeqeunces@be35cd9]" started-at="2022-05-18T22:59:24 IST" name="AfterSuite" finished-at="2022-05-18T22:59:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuite -->
       </class> <!-- annotationsTest.AnnotationSeqeunces -->
     </test> <!-- Annotations Test -->
-  </suite> <!-- Suite -->
+  </suite> <!-- Suite (0) -->
 </testng-results>
