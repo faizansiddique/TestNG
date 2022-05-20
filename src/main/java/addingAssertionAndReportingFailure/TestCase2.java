@@ -3,6 +3,8 @@ package addingAssertionAndReportingFailure;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import base.BaseTest;
+
 public class TestCase2 {
 	
 	@Test

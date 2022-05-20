@@ -10,7 +10,9 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class AnnotationSeqeunces {
+import base.BaseTest;
+
+public class AnnotationSeqeunces extends BaseTest {
 
 	@BeforeSuite
 	public void beforeSuite() {

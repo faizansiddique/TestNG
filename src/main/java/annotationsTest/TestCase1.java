@@ -6,13 +6,15 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TestCase1 {
+import base.BaseTest;
+
+public class TestCase1 extends BaseTest {
 
 	@BeforeTest
 	public void createDB() {
 		System.out.println("Create DB connection");
 	}
-	
+
 	@BeforeMethod
 	public void launchBrowser() {
 		System.out.println("Launch Browser");
@@ -37,7 +39,7 @@ public class TestCase1 {
 	public void closeBrowser() {
 		System.out.println("close Browser");
 	}
-	
+
 	@AfterTest
 	public void deleteDB() {
 		System.out.println("delete DB connection");

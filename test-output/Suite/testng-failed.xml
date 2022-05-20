@@ -8,6 +8,8 @@
     <classes>
       <class name="addingAssertionAndReportingFailure.TestCase2">
         <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
           <include name="validateTitle"/>
         </methods>
       </class> <!-- addingAssertionAndReportingFailure.TestCase2 -->
