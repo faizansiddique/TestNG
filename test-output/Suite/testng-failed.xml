@@ -8,23 +8,11 @@
     <classes>
       <class name="addingAssertionAndReportingFailure.TestCase2">
         <methods>
-          <include name="tearDown"/>
-          <include name="init"/>
           <include name="validateTitle"/>
         </methods>
       </class> <!-- addingAssertionAndReportingFailure.TestCase2 -->
     </classes>
   </test> <!-- Adding Assertion And Reporting Failure Test(failed) -->
-  <test thread-count="5" name="Dependencies Test(failed)">
-    <classes>
-      <class name="dependenciesTest.TestCase1">
-        <methods>
-          <include name="doLogin"/>
-          <include name="doRegister"/>
-        </methods>
-      </class> <!-- dependenciesTest.TestCase1 -->
-    </classes>
-  </test> <!-- Dependencies Test(failed) -->
   <test thread-count="5" name="SoftAssert And Multiple Reporting Failure Test(failed)">
     <classes>
       <class name="softAssertAndMultipleReportingFailure.TestCase1">

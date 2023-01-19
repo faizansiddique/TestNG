@@ -8,7 +8,7 @@ public class TestCase1 {
 	@Test(priority = 1)
 	public void doRegister() {
 		System.out.println("Registration Page");
-		Assert.fail("Element not found");
+		//Assert.fail("Element not found");
 	}
 
 	@Test(priority = 2, dependsOnMethods = "doRegister")

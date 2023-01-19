@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="forcefullySkipTestCases.TestCase1">
+      <class name="parameterizationTest.TestParameterizationByXML">
         <methods>
-          <include name="isSkipped"/>
+          <include name="getBrowser"/>
         </methods>
-      </class> <!-- forcefullySkipTestCases.TestCase1 -->
+      </class> <!-- parameterizationTest.TestParameterizationByXML -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

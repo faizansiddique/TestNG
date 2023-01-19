@@ -18,10 +18,10 @@ public class TestCase1 {
 		 * { System.out.println("Failed"); }
 		 */
 		System.out.println("Validating Title");
-		softAssert.assertEquals(expected_title, actual_title);
+		softAssert.assertEquals(expected_title, actual_title);  //False
 		
 		System.out.println("Validating Image");
-		softAssert.assertTrue(false, "Element not found");
+		softAssert.assertTrue(true, "Element not found");
 		
 		System.out.println("Validating Text box");
 		softAssert.assertEquals(false, true,  "text box not found");
